@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Windows",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Users/nordw/miniconda3/envs/cppcuda/include",
+                "C:/Users/nordw/miniconda3/envs/cppcuda/Lib/site-packages/torch/include",
+                "C:/Users/nordw/miniconda3/envs/cppcuda/Lib/site-packages/torch/include/torch/csrc/api/include"
+            ],
+            "defines": [],
+            // "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++14"
+            // "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}
