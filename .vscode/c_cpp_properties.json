@@ -4,6 +4,7 @@
             "name": "Windows",
             "includePath": [
                 "${workspaceFolder}/**",
+                "${workspaceFolder}/include/**",
                 "C:/Users/nordw/miniconda3/envs/cppcuda/include",
                 "C:/Users/nordw/miniconda3/envs/cppcuda/Lib/site-packages/torch/include",
                 "C:/Users/nordw/miniconda3/envs/cppcuda/Lib/site-packages/torch/include/torch/csrc/api/include"
