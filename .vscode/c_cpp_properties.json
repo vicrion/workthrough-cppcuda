@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "Windows",
+            "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/include/**",
@@ -10,10 +10,10 @@
                 "C:/Users/nordw/miniconda3/envs/cppcuda/Lib/site-packages/torch/include/torch/csrc/api/include"
             ],
             "defines": [],
-            // "compilerPath": "/usr/bin/clang",
+            "compilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe",
             "cStandard": "c17",
-            "cppStandard": "c++14"
-            // "intelliSenseMode": "linux-clang-x64"
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
         }
     ],
     "version": 4
