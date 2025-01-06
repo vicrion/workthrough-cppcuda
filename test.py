@@ -1,9 +1,11 @@
 import torch
 import cppcuda_tutorial
 
-feats = torch.ones(2, device='cuda')
-point = torch.zeros(2, device='cuda')
+if __name__ == '__main__':
+    N = 65536; F = 256
+    feats = torch.rand(N, 8, F, device='cuda')
+    points = torch.rand(N, 3, device='cuda')*2-1
 
-out = cppcuda_tutorial.trilinear_interpolation(feats, point)
+    out_cuda = cppcuda_tutorial.trilinear_interpolation(feats, points)
+    print(out_cuda.shape)
 
-print(out)
